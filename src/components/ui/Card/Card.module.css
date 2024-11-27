@@ -1,0 +1,31 @@
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.thumb {
+  height: 400px;
+  background-color: gray;
+}
+
+.content {
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.description {
+  margin: 0.5rem 0 2rem 0;
+}
+
+.btn {
+  background-color: yellow;
+  border-radius: .5rem;
+  padding: 1rem 1.5rem;
+}

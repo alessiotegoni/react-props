@@ -3,7 +3,7 @@ import "./index.css";
 function App() {
   return (
     <div className="hero">
-      <header>
+      <header className="">
         <h1>il mio blog</h1>
       </header>
       <main>

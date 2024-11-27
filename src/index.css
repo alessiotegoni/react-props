@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+header,
+footer,
+main {
+  text-align: center;
+  padding: 2rem;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  background-color: #181818;
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+.hero {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
