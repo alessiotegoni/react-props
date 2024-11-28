@@ -16,7 +16,7 @@ const Card = ({
         <h1 className={style.title}>Titolo del post</h1>
         <ul className="flex">
           {tags.map((tag, i) => (
-            <li key={i} className={tag}>
+            <li key={i} className={style[tag]}>
               #{tag}
             </li>
           ))}

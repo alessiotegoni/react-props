@@ -2,8 +2,8 @@
   border-radius: 1rem;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  max-width: 540px;
-  transition: .3s ease;
+  max-width: 500px;
+  transition: 0.3s ease;
 }
 
 .card:hover {
@@ -12,7 +12,7 @@
 }
 
 .thumb__container {
-  background-color: gray;
+  background-color: rgba(128, 128, 128, 0.508);
   aspect-ratio: 3 / 2;
 }
 
@@ -30,12 +30,29 @@
   font-weight: bold;
 }
 
+.html {
+  color: orangered;
+}
+
+.css {
+  color: rgb(43, 136, 136);
+}
+
+.js {
+  color: rgb(118, 118, 12);
+}
+
+.php {
+  color: purple;
+}
+
 .description {
   margin: 0.5rem 0 2rem 0;
 }
 
 .btn {
-  background-color: yellow;
+  background-color: rgb(118, 118, 12);
+  color: #fff;
   border-radius: 0.5rem;
   padding: 1rem 1.5rem;
 }
