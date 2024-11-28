@@ -1,7 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900");
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+ul {
+  list-style: none;
 }
 
 header,
@@ -9,6 +16,12 @@ footer,
 main {
   text-align: center;
   padding: 2rem;
+}
+
+img {
+  display: block;
+ max-width: 100%;
+  height: 100%;
 }
 
 main {
@@ -32,4 +45,10 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
